@@ -90,16 +90,8 @@ def all_supplies_in_holidays(holiday_hash)
         |word|
         word.capitalize!
       }.join(" ")
-=begin
-      holiday_separate_capitalized = holiday_separate.map{
-        |word|
-        word.capitalize!
-      }
-=end
 
       puts("holiday: #{holiday}")
-      #puts("holiday_separate_capitalized: #{holiday_separate_capitalized}")
-      #puts ("#{holiday.to_s.capitalize!}: #{supplies.join(", ")}")
     }
   }
   holiday_hash
