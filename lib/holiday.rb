@@ -89,7 +89,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_separate = holiday.to_s.split("_").map{
         |word|
         word.capitalize!
-      }
+      }.join(" ")
 =begin
       holiday_separate_capitalized = holiday_separate.map{
         |word|
