@@ -88,7 +88,7 @@ def all_supplies_in_holidays(holiday_hash)
 
       holiday_separate = holiday.to_s.split("_")
       puts("holiday_separate: #{holiday_separate}")
-      puts ("#{holiday.to_s.capitalize!}: #{supplies.join(", ")}")
+      #puts ("#{holiday.to_s.capitalize!}: #{supplies.join(", ")}")
     }
   }
   holiday_hash
@@ -120,4 +120,3 @@ testhash = {
   }
 }
 all_supplies_in_holidays(testhash)
-
