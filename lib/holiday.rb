@@ -117,7 +117,7 @@ def all_holidays_with_bbq(holiday_hash)
       supplies.include?("BBQ")? incl = true : incl = false
     }
 
-    incl==true? arr << season : break
+    arr << season if incl == true
   }
 
   puts("arr: #{arr}")
