@@ -114,7 +114,7 @@ def all_holidays_with_bbq(holiday_hash)
 
     data.each{
       |holiday, supplies|
-      supplies.include?("BBQ")? incl = true : incl = false
+      arr << holiday if supplies.include?("BBQ")
     }
 
     arr << season if incl == true
