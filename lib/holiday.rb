@@ -108,9 +108,8 @@ def all_holidays_with_bbq(holiday_hash)
 
   holidays_hash.each{
     |season, data|
-
     incl = false
-
+    
     data.each{
       |holiday, supplies|
       supplies.include?("BBQ")? incl = true : incl = false
