@@ -93,7 +93,7 @@ def all_supplies_in_holidays(holiday_hash)
 
       supplies = supplies.join(", ")
 
-      puts("#{holiday}: #{supplies}")
+      puts("  #{holiday}: #{supplies}")
     }
   }
   holiday_hash
