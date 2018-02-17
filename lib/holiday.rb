@@ -140,4 +140,4 @@ testhash = {
     :memorial_day => ["BBQ"]
   }
 }
-all_supplies_in_holidays(testhash)
+all_holidays_with_bbq(testhash)
