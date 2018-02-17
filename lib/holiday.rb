@@ -120,7 +120,7 @@ def all_holidays_with_bbq(holiday_hash)
     incl==true? arr << season
   }
 
-  arr
+  puts("arr: #{arr}")
 
 end
 
